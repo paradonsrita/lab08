@@ -9,7 +9,7 @@ import HelloWorld from "./components/HelloWorld.vue";
     <img
       alt="Vue logo"
       class="logo"
-      src="@/assets/ดาวน์โหลด (3).png"
+      src="@/assets/br.png"
       width="200"
       height="200"
     />
