@@ -4,14 +4,15 @@ import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
-  
   <header>
+
+  
     <img
       alt="Vue logo"
       class="logo"
       src="@/assets/br.png"
-      width="200"
-      height="200"
+      width="150"
+      height="150"
     />
 
     <div class="wrapper">
@@ -19,8 +20,8 @@ import HelloWorld from "./components/HelloWorld.vue";
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About Bitcoin</RouterLink>
-        <RouterLink to="/bitcoin">Bitcoin Price</RouterLink>
+
+        <RouterLink to="/bitcoin">Price</RouterLink>
       </nav>
     </div>
   </header>

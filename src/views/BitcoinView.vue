@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1>Bitcoin Price</h1>
+      <h1>Price</h1>
       <button @click="loadmenu()">SHOW</button>
       <!-- {{ item[1].Population }} -->
       <h3 v-for="Bit in menudata" :key="Bit.symbol">

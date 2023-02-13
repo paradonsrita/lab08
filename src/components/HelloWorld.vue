@@ -13,6 +13,8 @@ defineProps({
     <h3>
     Bitcoin is a digital currency which operates free of any central control or the oversight of banks or governments.
     </h3>
+    <a href="https://vuejs.org/" target="_blank" rel="noopener">https://bitcoin.org/en/</a>
+
   </div>
 </template>
 
