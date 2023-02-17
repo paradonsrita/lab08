@@ -1,33 +1,32 @@
 <script setup>
+import TheHistory2 from "../components/TheHistory2.vue";
 import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "./components/HelloWorld.vue";
+
 </script>
 
 <template>
-  <header>
-
-  
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="@/assets/br.png"
-      width="150"
-      height="150"
-    />
-
+  <main>
+    <TheHistory2 />
+    
     <div class="wrapper">
-      <HelloWorld msg="BitCoin!" />
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/history">History</RouterLink>
+      <center>
+
+        <RouterLink to="/history">1</RouterLink>
+        <RouterLink to="/history2">2</RouterLink>
         
-        <RouterLink to="/about">About</RouterLink>
+        
+    </center>
       </nav>
     </div>
-  </header>
+
+  </main>
+
+
 
   <RouterView />
+
 </template>
 
 <style scoped>
